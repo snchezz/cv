@@ -1,0 +1,70 @@
+.sidenav-overlay {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 996;
+    will-change: opacity;
+}
+
+#imggithub {
+    border-radius: 50%;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 10px;
+    /* Puedes ajustar el margen según tus necesidades */
+}
+
+.gitlin {
+    height: 100px !important;
+    width: auto;
+
+    transition: ease-in-out .3s;
+}
+
+.gitlin:hover {
+    transform: scale(1.1);
+}
+
+.textred {
+    color: #e53935;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .gitlin {
+        height: 80px !important;
+    }
+
+    #PC {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .gitlin {
+        height: 80px !important;
+    }
+
+    #PC {
+        display: flex;
+    }
+}
+
+#prueba {
+    position: fixed;
+    margin-left: 5%;
+    bottom: 0;
+}
+
+.espacio {
+    padding-top: 15%;
+}
+.icon {
+    border-radius: 50% !important;
+}
